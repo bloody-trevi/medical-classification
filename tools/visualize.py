@@ -77,7 +77,7 @@ def visualize(args):
     saved_imgs_path = os.listdir(save_root_path)
     saved_imgs_path = [file for file in saved_imgs_path if file.endswith(".png")]
     
-    plt.savefig("test.png")
+    plt.savefig("eval_result.png")
 
 
 if __name__ == "__main__":

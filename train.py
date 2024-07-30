@@ -6,7 +6,7 @@ from tqdm import tqdm
 import os
 
 from data.medical import NCT_CRC_HE
-from utils.logging import Logger
+# from utils.logging import Logger
 
 def test(model, test_loader, epoch, best_top1):
     correct_top1 = 0
